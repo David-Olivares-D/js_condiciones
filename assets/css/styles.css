@@ -1,0 +1,66 @@
+/* Ejercicio Número 1 */
+
+.seccion1 h1 {
+    display: block;
+    text-align: center;
+}
+.seccion1 img {
+    height: 400px;
+    width: 400px;
+    margin-left: 480px;
+}
+
+ /* Ejercicio Número 2 */
+
+.seccion2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion2 h1 {
+    display: block;
+    text-align: center;
+}
+
+.stickers {
+    display: flex;
+    justify-content: space-around;
+    padding: 140px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.stickers img {
+    height: 300px;
+    width:  300px;
+    border: solid 3px rgba(245, 52, 52, 0.741);
+}
+
+.stickers input {
+    padding-right: 130px;
+}
+
+#verificacion {
+    margin-bottom: 100px;
+}
+
+ /* Ejercicio Número 3 */
+
+#seccion3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botones {
+    padding: 7px;
+    border: solid 2px rgb(203, 21, 21);
+}
+
+#ingreso {
+    height: 40px;
+    width: 100px;
+    margin: 30px;
+}
+
